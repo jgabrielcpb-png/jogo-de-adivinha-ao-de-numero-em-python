@@ -22,9 +22,9 @@ def jogo_adivinhacao():
         elif chute > numero_secreto:
             print(f"Muito alto! Tentativas restantes: {max_tentativas - tentativas}")
         else:
-            print(f"\n🎉 Parabéns! Você acertou em {tentativas} tentativa(s)!")
+            print(f"\n Parabéns! Você acertou em {tentativas} tentativa(s)!")
             return
 
-    print(f"\n😢 Você perdeu! O número era {numero_secreto}.")
+    print(f"\n Você perdeu! O número era {numero_secreto}.")
 
 jogo_adivinhacao()
